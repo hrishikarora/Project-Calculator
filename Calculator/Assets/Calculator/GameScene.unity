@@ -551,6 +551,7 @@ GameObject:
   - component: {fileID: 247815513}
   - component: {fileID: 247815512}
   - component: {fileID: 247815514}
+  - component: {fileID: 247815515}
   m_Layer: 5
   m_Name: 6
   m_TagString: Untagged
@@ -672,6 +673,34 @@ MonoBehaviour:
           m_StringArgument: 6
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 247815515}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &247815515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247815510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &291956065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,6 +1840,7 @@ GameObject:
   - component: {fileID: 723987972}
   - component: {fileID: 723987971}
   - component: {fileID: 723987974}
+  - component: {fileID: 723987975}
   m_Layer: 5
   m_Name: =
   m_TagString: Untagged
@@ -1952,6 +1982,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 723987975}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &723987975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723987969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &812038062
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,6 +2022,7 @@ GameObject:
   - component: {fileID: 812038065}
   - component: {fileID: 812038064}
   - component: {fileID: 812038066}
+  - component: {fileID: 812038067}
   m_Layer: 5
   m_Name: 9
   m_TagString: Untagged
@@ -2085,6 +2144,34 @@ MonoBehaviour:
           m_StringArgument: 9
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 812038067}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &812038067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812038062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &818013778
 GameObject:
   m_ObjectHideFlags: 0
@@ -2097,6 +2184,7 @@ GameObject:
   - component: {fileID: 818013782}
   - component: {fileID: 818013781}
   - component: {fileID: 818013780}
+  - component: {fileID: 818013783}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -2180,6 +2268,18 @@ MonoBehaviour:
           m_StringArgument: 3
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 818013783}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &818013781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2218,6 +2318,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818013778}
   m_CullTransparentMesh: 1
+--- !u!114 &818013783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818013778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &825622158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2230,6 +2346,7 @@ GameObject:
   - component: {fileID: 825622161}
   - component: {fileID: 825622160}
   - component: {fileID: 825622162}
+  - component: {fileID: 825622163}
   m_Layer: 5
   m_Name: 8
   m_TagString: Untagged
@@ -2351,6 +2468,34 @@ MonoBehaviour:
           m_StringArgument: 8
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 825622163}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &825622163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825622158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &857645495
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,6 +2773,7 @@ GameObject:
   - component: {fileID: 973099074}
   - component: {fileID: 973099073}
   - component: {fileID: 973099075}
+  - component: {fileID: 973099076}
   m_Layer: 5
   m_Name: 7
   m_TagString: Untagged
@@ -2749,6 +2895,34 @@ MonoBehaviour:
           m_StringArgument: 7
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 973099076}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &973099076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973099071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &984730611
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,6 +3492,7 @@ GameObject:
   - component: {fileID: 1182119861}
   - component: {fileID: 1182119860}
   - component: {fileID: 1182119862}
+  - component: {fileID: 1182119863}
   m_Layer: 5
   m_Name: 5
   m_TagString: Untagged
@@ -3439,6 +3614,34 @@ MonoBehaviour:
           m_StringArgument: 5
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1182119863}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1182119863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182119858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1209006792
 GameObject:
   m_ObjectHideFlags: 0
@@ -3851,6 +4054,7 @@ GameObject:
   - component: {fileID: 1324373630}
   - component: {fileID: 1324373629}
   - component: {fileID: 1324373632}
+  - component: {fileID: 1324373633}
   m_Layer: 5
   m_Name: Divide
   m_TagString: Untagged
@@ -3998,6 +4202,34 @@ MonoBehaviour:
           m_StringArgument: "\xF7"
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1324373633}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1324373633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324373627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1330739359
 GameObject:
   m_ObjectHideFlags: 0
@@ -4010,6 +4242,7 @@ GameObject:
   - component: {fileID: 1330739363}
   - component: {fileID: 1330739362}
   - component: {fileID: 1330739361}
+  - component: {fileID: 1330739364}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -4093,6 +4326,18 @@ MonoBehaviour:
           m_StringArgument: 1
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1330739364}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1330739362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4131,6 +4376,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1330739359}
   m_CullTransparentMesh: 1
+--- !u!114 &1330739364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1330739359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1350687809
 GameObject:
   m_ObjectHideFlags: 0
@@ -4234,6 +4495,7 @@ GameObject:
   - component: {fileID: 1353650344}
   - component: {fileID: 1353650343}
   - component: {fileID: 1353650346}
+  - component: {fileID: 1353650347}
   m_Layer: 5
   m_Name: +
   m_TagString: Untagged
@@ -4381,6 +4643,34 @@ MonoBehaviour:
           m_StringArgument: +
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1353650347}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1353650347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1353650341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1360720041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4394,6 +4684,7 @@ GameObject:
   - component: {fileID: 1360720044}
   - component: {fileID: 1360720043}
   - component: {fileID: 1360720046}
+  - component: {fileID: 1360720047}
   m_Layer: 5
   m_Name: AC
   m_TagString: Untagged
@@ -4541,6 +4832,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1360720047}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1360720047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360720041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1453210364
 GameObject:
   m_ObjectHideFlags: 0
@@ -4553,6 +4872,7 @@ GameObject:
   - component: {fileID: 1453210368}
   - component: {fileID: 1453210367}
   - component: {fileID: 1453210366}
+  - component: {fileID: 1453210369}
   m_Layer: 5
   m_Name: +
   m_TagString: Untagged
@@ -4636,6 +4956,18 @@ MonoBehaviour:
           m_StringArgument: +
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1453210369}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1453210367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4674,6 +5006,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1453210364}
   m_CullTransparentMesh: 1
+--- !u!114 &1453210369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1453210364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1453812223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4912,6 +5260,7 @@ GameObject:
   - component: {fileID: 1539658566}
   - component: {fileID: 1539658565}
   - component: {fileID: 1539658567}
+  - component: {fileID: 1539658568}
   m_Layer: 5
   m_Name: x
   m_TagString: Untagged
@@ -5033,6 +5382,34 @@ MonoBehaviour:
           m_StringArgument: x
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1539658568}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1539658568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539658563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1555023624
 GameObject:
   m_ObjectHideFlags: 0
@@ -5045,6 +5422,7 @@ GameObject:
   - component: {fileID: 1555023627}
   - component: {fileID: 1555023626}
   - component: {fileID: 1555023628}
+  - component: {fileID: 1555023629}
   m_Layer: 5
   m_Name: '-'
   m_TagString: Untagged
@@ -5166,6 +5544,34 @@ MonoBehaviour:
           m_StringArgument: '-'
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1555023629}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1555023629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555023624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1564772644
 GameObject:
   m_ObjectHideFlags: 0
@@ -5312,6 +5718,7 @@ GameObject:
   - component: {fileID: 1576768820}
   - component: {fileID: 1576768819}
   - component: {fileID: 1576768821}
+  - component: {fileID: 1576768822}
   m_Layer: 5
   m_Name: 4
   m_TagString: Untagged
@@ -5433,6 +5840,34 @@ MonoBehaviour:
           m_StringArgument: 4
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1576768822}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1576768822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576768817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1643997191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5714,6 +6149,7 @@ GameObject:
   - component: {fileID: 1730538418}
   - component: {fileID: 1730538417}
   - component: {fileID: 1730538420}
+  - component: {fileID: 1730538421}
   m_Layer: 5
   m_Name: 0
   m_TagString: Untagged
@@ -5855,6 +6291,34 @@ MonoBehaviour:
           m_StringArgument: 0
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1730538421}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1730538421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730538415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1746281255
 GameObject:
   m_ObjectHideFlags: 0
@@ -5868,6 +6332,7 @@ GameObject:
   - component: {fileID: 1746281258}
   - component: {fileID: 1746281257}
   - component: {fileID: 1746281260}
+  - component: {fileID: 1746281261}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -6015,6 +6480,34 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1746281261}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1746281261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746281255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1781938795
 GameObject:
   m_ObjectHideFlags: 0
@@ -6295,6 +6788,7 @@ GameObject:
   - component: {fileID: 1878501877}
   - component: {fileID: 1878501876}
   - component: {fileID: 1878501879}
+  - component: {fileID: 1878501880}
   m_Layer: 5
   m_Name: .
   m_TagString: Untagged
@@ -6436,6 +6930,34 @@ MonoBehaviour:
           m_StringArgument: .
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1878501880}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1878501880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1878501874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &1881011128
 GameObject:
   m_ObjectHideFlags: 0
@@ -6676,6 +7198,7 @@ GameObject:
   - component: {fileID: 2049573294}
   - component: {fileID: 2049573293}
   - component: {fileID: 2049573292}
+  - component: {fileID: 2049573295}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -6759,6 +7282,18 @@ MonoBehaviour:
           m_StringArgument: 2
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2049573295}
+        m_TargetAssemblyTypeName: ButtonAnimation, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2049573293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6797,6 +7332,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2049573290}
   m_CullTransparentMesh: 1
+--- !u!114 &2049573295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2049573290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4e790a568a80f4aabcdee46b88cf52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _punchAmount: 0.2
+  _punchDuration: 0.1
+  _vibrator: 3
+  _elasticity: 0.5
 --- !u!1 &2085415858
 GameObject:
   m_ObjectHideFlags: 0
