@@ -7,6 +7,8 @@ using UnityEngine;
 public class InputHandler : MonoBehaviour
 {
     [SerializeField] private UIManager _uiManager;
+    [SerializeField] private CalculatorManager _calculatorManager;
+
     private string _currentInput;
     private string _expressionInput;
 
@@ -25,7 +27,7 @@ public class InputHandler : MonoBehaviour
     /// <param name="number"></param>
     public void OnNumberClick(string number)
     {
-        if (_currentInput == "0")
+        if (_currentInput == "0" || _currentInput == "")
             _currentInput = "";
         _currentInput += number;
         UpdateUI();
@@ -60,6 +62,22 @@ public class InputHandler : MonoBehaviour
         UpdateUI();
     }
 
+    public void OnEvaluate()
+    {
+        if (!string.IsNullOrEmpty(_currentInput))
+        {
+            _expressionInput += _currentInput;
+        }
+       string result =  _calculatorManager.EvaluateCalculation(_expressionInput);
+        _uiManager.UpdateExpressionDisplay(_expressionInput);
+        _expressionInput = result;
+        _currentInput = "";
+        UpdateUI();
+        _currentInput = result;
+
+        _expressionInput = "";
+    }
+
     /// <summary>
     /// Clears current input
     /// </summary>
@@ -76,6 +94,7 @@ public class InputHandler : MonoBehaviour
     {
         _currentInput = "0";
         _expressionInput = "";
+        _uiManager.UpdateExpressionDisplay("");
         UpdateUI();
     }
 
